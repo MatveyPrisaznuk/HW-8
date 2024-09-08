@@ -1,0 +1,15 @@
+.school-schedule > ul :nth-child(1) {
+    color: grey;
+    text-transform: uppercase;
+}
+
+.school-schedule > ul :last-child {
+    color: green;
+    
+}
+
+.school-schedule > ul :nth-child(2n+2) {
+    color: rgb(0, 26, 128);
+    
+}
+
