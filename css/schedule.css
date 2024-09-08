@@ -1,15 +1,33 @@
-.school-schedule > ul :nth-child(1) {
+.item:first-child {
+ color: green;
+}
+
+.item:first-child:hover {
+ color: blue;
+}
+
+.item:last-child {
+color: pink;
+}
+
+.item:nth-child(even) {
+    color: brown;
+}
+
+.item:nth-child(3) {
     color: grey;
-    text-transform: uppercase;
 }
 
-.school-schedule > ul :last-child {
-    color: green;
-    
+.item > p:nth-child(3n) {
+    color: purple;
 }
 
-.school-schedule > ul :nth-child(2n+2) {
-    color: rgb(0, 26, 128);
-    
+
+.item > p:nth-child(3n):hover {
+    color: blue;
+}
+
+p:active {
+  color: blanchedalmond;
 }
 
